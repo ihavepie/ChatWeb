@@ -1,0 +1,39 @@
+@import "SignView.css";
+@import "UserView.css";
+
+@import "component/aside.css";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid:"aside main" 1fr
+    /100px auto;
+}
+
+.aside{
+    grid-area: aside;
+
+    display: grid;
+    grid:
+    "user" 100px
+    "function" auto
+    / 100px;
+}
+
+.main{
+    grid-area: main;
+    height: 100vh;
+
+    display: grid;
+    grid:
+    "affair workplace" 1fr
+    / 300px auto;
+}

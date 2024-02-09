@@ -1,0 +1,30 @@
+{
+  "name": "vue",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^1.5.0",
+    "bootstrap": "^5.3.1",
+    "bootstrap-vue": "^2.23.1",
+    "element-plus": "^2.3.12",
+    "localforage": "^1.10.0",
+    "qs": "^6.11.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "vuesax": "^3.12.2",
+    "vuex": "^4.1.0",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.1",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.4.9"
+  }
+}

@@ -1,0 +1,56 @@
+/*共有类*/
+.table{
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    left: 0; top: 0; bottom: 0; right: 0;
+    margin: auto;
+    box-shadow: 3px 3px 5px 5px rgba(220, 220, 220, 0.96);
+    background: rgb(245, 245, 245);
+    border-radius: 0.6rem;
+    overflow: hidden;
+}
+
+
+.word{
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 24px;
+    text-align: center;
+    margin: auto;
+    font-family: "HarmonyOS Sans SC",serif;
+    font-size: 35px;
+}
+
+/*登录和注册按钮的重组*/
+.re-button{
+    position: absolute;
+    width: 96px;
+    height: 36px;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: lightgray;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.re-button:hover{
+    background: #67c23a;
+}
+
+.re-button:focus{
+    background: lightgray;
+}
+
+
+.re-dis-button, .re-dis-button:hover, .re-dis-button:focus{
+    user-select:none;
+    pointer-events:none;
+    background: red;
+}

@@ -1,0 +1,8 @@
+.user{
+    grid-area: user;
+}
+
+.function{
+    grid-area: function;
+}
+
